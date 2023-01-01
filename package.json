@@ -1,0 +1,25 @@
+{
+  "name": "arogyasetu_cowin",
+  "version": "1.0.0",
+  "description": "arogya setu application for vaccination",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChavanPriya97/Arogyasetu_Cowin.git"
+  },
+  "author": "Priyanka chavan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChavanPriya97/Arogyasetu_Cowin/issues"
+  },
+  "homepage": "https://github.com/ChavanPriya97/Arogyasetu_Cowin#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
