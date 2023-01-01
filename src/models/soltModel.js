@@ -1,8 +1,8 @@
 const mongoose =  require("mongoose")
 
 const slotSchema=new mongoose.Schema({
-    firtDose : { type : Boolean , default : false},
-    secondDose : { type : Boolean , default : false},
+    // firtDose : { type : Boolean , default : false},
+    // secondDose : { type : Boolean , default : false},
     date:{ type : String ,required:true},
     isAvalaible:{type:Boolean,default:true},
     availableVaccines:{
